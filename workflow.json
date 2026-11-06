@@ -27,7 +27,7 @@
         [
           {
             "index": 0,
-            "node": "LLM",
+            "node": "AI Agent 3",
             "type": "main"
           }
         ]
@@ -94,26 +94,23 @@
         "agent_name": "Report agent 1"
       },
       "position": [
-        1214.104799067094,
-        319.3379423172579
+        1219.4926816079735,
+        322.9298640111775
       ],
       "type": "lyzr-nodes-base.lyzr.agent"
     },
     {
-      "id": "f0f78604-75a7-458c-a212-7a89ef2e3fe6",
-      "name": "LLM",
+      "id": "ca8bbf0f-4780-403e-9f4a-f38a884c62fa",
+      "name": "AI Agent 3",
       "parameters": {
-        "llm_credential_id": "lyzr_openai",
-        "maxTokens": 4096,
-        "model": "gpt-5.6-luna",
-        "provider": "OpenAI",
-        "systemPrompt": "You are a helpful assistant."
+        "agent_id": "69fb39faa50df704a5d90ae4",
+        "agent_name": "Testing Maverick"
       },
       "position": [
-        1524.837939222328,
-        317.7159123659986
+        1551.7717672803706,
+        321.3050907476348
       ],
-      "type": "lyzr-nodes-base.lyzr.llm"
+      "type": "lyzr-nodes-base.lyzr.agent"
     }
   ]
 }
