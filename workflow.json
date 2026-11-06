@@ -11,6 +11,17 @@
         ]
       ]
     },
+    "AI Agent 1": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "AI Agent 2",
+            "type": "main"
+          }
+        ]
+      ]
+    },
     "Trigger": {
       "main": [
         [
@@ -61,6 +72,19 @@
       "position": [
         918.5997834817535,
         317.826610542689
+      ],
+      "type": "lyzr-nodes-base.lyzr.agent"
+    },
+    {
+      "id": "f0dd91ca-c155-48ce-8e58-b2d116f46117",
+      "name": "AI Agent 2",
+      "parameters": {
+        "agent_id": "6a2671ed57ecee2c85562a88",
+        "agent_name": "Report agent 1"
+      },
+      "position": [
+        1219.4926816079735,
+        322.9298640111775
       ],
       "type": "lyzr-nodes-base.lyzr.agent"
     }
