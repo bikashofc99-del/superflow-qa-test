@@ -33,6 +33,28 @@
         ]
       ]
     },
+    "AI Agent 3": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "LLM",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "LLM": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "Guardrails",
+            "type": "main"
+          }
+        ]
+      ]
+    },
     "Trigger": {
       "main": [
         [
@@ -111,6 +133,34 @@
         321.3050907476348
       ],
       "type": "lyzr-nodes-base.lyzr.agent"
+    },
+    {
+      "id": "3125767f-b659-4f22-acc8-9d9e226506ab",
+      "name": "LLM",
+      "parameters": {
+        "llm_credential_id": "lyzr_openai",
+        "maxTokens": 4096,
+        "model": "gpt-5.6-luna",
+        "provider": "OpenAI",
+        "systemPrompt": "You are a helpful assistant."
+      },
+      "position": [
+        1890.365819658854,
+        302.3020751622299
+      ],
+      "type": "lyzr-nodes-base.lyzr.llm"
+    },
+    {
+      "id": "9b184317-ace1-4459-8bec-ce0b7e77c13d",
+      "name": "Guardrails",
+      "parameters": {
+        "timeout_seconds": 100
+      },
+      "position": [
+        2210.365819658854,
+        302.3020751622299
+      ],
+      "type": "lyzr-nodes-base.lyzr.guardrails"
     }
   ]
 }
