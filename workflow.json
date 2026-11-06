@@ -1,0 +1,68 @@
+{
+  "connections": {
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "AI Agent 1",
+            "type": "main"
+          }
+        ]
+      ]
+    },
+    "Trigger": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "AI Agent",
+            "type": "main"
+          }
+        ]
+      ]
+    }
+  },
+  "name": "5-Nov-SuperFlow",
+  "nodes": [
+    {
+      "id": "743ddeae-6364-4c75-987b-c6fe31c33da3",
+      "name": "Trigger",
+      "parameters": {
+        "inputSchema": [],
+        "webhookSecret": "2104ab1e796419d4f3828854eb52b17d7379515555edcbb0b9e315fdf0af03e0"
+      },
+      "position": [
+        361.1580291563355,
+        318.1168225224903
+      ],
+      "type": "lyzr-nodes-base.trigger"
+    },
+    {
+      "id": "bf5c5a37-98fc-4246-88b8-a7089e3269b5",
+      "name": "AI Agent",
+      "parameters": {
+        "agent_id": "6aedaf51c46398b34481b3a9",
+        "agent_name": "6-Nov-Agent1(A-test3)"
+      },
+      "position": [
+        643.3925696830022,
+        317.68755287133877
+      ],
+      "type": "lyzr-nodes-base.lyzr.agent"
+    },
+    {
+      "id": "604f7058-59c8-43c6-9c0b-584637630c1d",
+      "name": "AI Agent 1",
+      "parameters": {
+        "agent_id": "6acf71f6fd43a2663afa87c2",
+        "agent_name": "5-Nov-Agent(1)"
+      },
+      "position": [
+        918.5997834817535,
+        317.826610542689
+      ],
+      "type": "lyzr-nodes-base.lyzr.agent"
+    }
+  ]
+}
