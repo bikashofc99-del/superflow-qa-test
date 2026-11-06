@@ -44,6 +44,17 @@
         ]
       ]
     },
+    "AI Swarm": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "LLM 1",
+            "type": "main"
+          }
+        ]
+      ]
+    },
     "Guardrails": {
       "main": [
         [
@@ -189,6 +200,22 @@
         319.40760375805837
       ],
       "type": "lyzr-nodes-base.lyzr.taskDecomposition"
+    },
+    {
+      "id": "d4002cd2-ed4e-4194-a06f-91d236613749",
+      "name": "LLM 1",
+      "parameters": {
+        "llm_credential_id": "lyzr_openai",
+        "maxTokens": 4096,
+        "model": "gpt-5.6-luna",
+        "provider": "OpenAI",
+        "systemPrompt": "You are a helpful assistant."
+      },
+      "position": [
+        2765.3348567570897,
+        171.07907754944296
+      ],
+      "type": "lyzr-nodes-base.lyzr.llm"
     }
   ]
 }
