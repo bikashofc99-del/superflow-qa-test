@@ -33,6 +33,17 @@
         ]
       ]
     },
+    "AI Agent 3": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "LLM",
+            "type": "main"
+          }
+        ]
+      ]
+    },
     "Trigger": {
       "main": [
         [
@@ -111,6 +122,22 @@
         321.3050907476348
       ],
       "type": "lyzr-nodes-base.lyzr.agent"
+    },
+    {
+      "id": "020b0996-07ae-4f1e-bf5c-fb59195777b5",
+      "name": "LLM",
+      "parameters": {
+        "llm_credential_id": "lyzr_openai",
+        "maxTokens": 4096,
+        "model": "gpt-5.6-luna",
+        "provider": "OpenAI",
+        "systemPrompt": "You are a helpful assistant."
+      },
+      "position": [
+        1869.858428815016,
+        327.7973383392076
+      ],
+      "type": "lyzr-nodes-base.lyzr.llm"
     }
   ]
 }
