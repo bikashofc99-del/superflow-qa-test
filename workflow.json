@@ -44,6 +44,17 @@
         ]
       ]
     },
+    "Guardrails": {
+      "main": [
+        [
+          {
+            "index": 0,
+            "node": "AI Swarm",
+            "type": "main"
+          }
+        ]
+      ]
+    },
     "LLM": {
       "main": [
         [
@@ -161,6 +172,23 @@
         302.3020751622299
       ],
       "type": "lyzr-nodes-base.lyzr.guardrails"
+    },
+    {
+      "id": "cae779ee-3882-47d0-b154-17e97ccde2a2",
+      "name": "AI Swarm",
+      "parameters": {
+        "llm_credential_id": "lyzr_openai",
+        "maxSubtasks": 10,
+        "maxTokens": 4096,
+        "model": "gpt-5.6-luna",
+        "provider": "OpenAI",
+        "systemPrompt": "You are an orchestrator."
+      },
+      "position": [
+        2468.687040071771,
+        319.40760375805837
+      ],
+      "type": "lyzr-nodes-base.lyzr.taskDecomposition"
     }
   ]
 }
